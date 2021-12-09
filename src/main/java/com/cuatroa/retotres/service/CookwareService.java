@@ -51,8 +51,8 @@ public class CookwareService {
                     accesoryDb.get().setCategory(accesory.getCategory());
                 }
 
-                if (accesory.getMaterial() != null) {
-                    accesoryDb.get().setMaterial(accesory.getMaterial());
+                if (accesory.getMateriales()!= null) {
+                    accesoryDb.get().setMateriales(accesory.getMateriales());
                 }
 
                 if (accesory.getDescription() != null) {
